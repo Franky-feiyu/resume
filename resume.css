@@ -91,7 +91,7 @@ h3{
 .footer dl{
 	padding-left: 100px;
 	margin-left: 10px;
-	border-left: 1px solid black;
+	border-left: 2px solid black;
 }
 .footer dl{
 	border: none;
@@ -116,12 +116,12 @@ dd{
 	content: '';
 	position: absolute;
 	display: block;
-	width: 10px;
-	height: 10px;
+	width: 16px;
+	height: 16px;
 	background: black;
 	top: 50%;
-	left: -100px;
-	border-radius: 5px;
+	left: -101px;
+	border-radius: 10px;
 	transform: translate(-50%,-50%);
 }
 .extra{
@@ -141,7 +141,7 @@ dd{
 	transform: translate(-50%,-50%);
 	font-size: 26px;
 	text-align: center;
-	line-height: 20px;
+	line-height: 24px;
 }
 .skill{
 	float: right;
@@ -165,5 +165,5 @@ dd{
 	transform: translate(-50%,-50%);
 	font-size: 26px;
 	text-align: center;
-	line-height: 20px;
+	line-height: 24px;
 }
