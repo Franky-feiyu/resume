@@ -2,6 +2,22 @@
 	margin: 0;
 	padding: 0;
 }
+@font-face {
+  font-family: 'icon-add';  /* project id 278797 */
+  src: url('//at.alicdn.com/t/font_ywy4to84yff7p66r.eot');
+  src: url('//at.alicdn.com/t/font_ywy4to84yff7p66r.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_ywy4to84yff7p66r.woff') format('woff'),
+  url('//at.alicdn.com/t/font_ywy4to84yff7p66r.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_ywy4to84yff7p66r.svg#iconfont') format('svg');
+}
+.icon{
+    font-family:"icon-add" !important;
+    font-size: 20px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
 ul,
 li{
 	list-style: none;
@@ -152,18 +168,11 @@ dd{
 	width: 90px;
 	margin: 0 10px 40px 50px;
 }
-.skill li:before{
-	content: '+';
-	position: absolute;
+.skill span:before{
+	content: "\e726";	
 	display: block;
-	width: 24px;
-	height: 24px;
-	border: 1px solid black;
-	border-radius: 12px;
-	left: -38px;
+	position: absolute;
+	left: -25px;
 	top: 50%;
 	transform: translate(-50%,-50%);
-	font-size: 26px;
-	text-align: center;
-	line-height: 24px;
 }
