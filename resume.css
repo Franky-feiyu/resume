@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,
+li{
+	list-style: none;
+}
+body{
+	font-family: '黑体';
+	padding: 20px;
+}
+.head,
+.content,
+.footer{
+	width: 800px;
+	margin: 20px auto;
+	padding: 10px;
+}
+.clear:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.logo{
+	width: 100px;
+	height: 100px;
+	color: #fff;
+	background-color: black;
+	position: relative;
+	float: left;
+	margin: 10px;
+	border-radius: 50px;
+}
+.logo :first-child{
+	display: block;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.logo :last-child{
+	display: block;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.logo:before{
+	content: '';
+	display: block;
+	width: 70px;
+	position: absolute;
+	border-top: 3px solid #fff;
+	top: 50%;
+	left: 50%;
+	transform: rotateZ(-45deg);
+	margin-left: -35px;
+}
+.name{
+	float: left;
+	margin: 20px 40px;
+}
+.name h1{
+	font-size: 50px;
+	font-weight: normal;
+}
+.contacts{
+	float: right;
+	width: 30%;
+}
+.contacts li{
+	margin: 5px 0;
+}
+.contacts li span{
+	font-weight: bold;
+}
+h3{
+	margin: 15px 0;
+	border-bottom: 3px solid #ccc;
+}
+.contacts h3{
+	border-color: black;
+}
+.content h3{
+	width: 40%;
+}
+.content dl,
+.footer dl{
+	padding-left: 100px;
+	margin-left: 10px;
+	border-left: 1px solid black;
+}
+.footer dl{
+	border: none;
+}
+dt,
+dd{
+	margin: 15px 0;
+}
+.exp dl span,
+.edu dl span,
+.school-name{
+	color: gray;
+}
+.exp dt,
+.edu dt,
+.extra dt,
+.skill li{
+	position: relative;
+}
+.exp dt:before,
+.edu dt:before{
+	content: '';
+	position: absolute;
+	display: block;
+	width: 10px;
+	height: 10px;
+	background: black;
+	top: 50%;
+	left: -100px;
+	border-radius: 5px;
+	transform: translate(-50%,-50%);
+}
+.extra{
+	float: left;
+	width: 55%;
+}
+.extra dt:before{
+	content: '+';
+	position: absolute;
+	display: block;
+	width: 24px;
+	height: 24px;
+	border: 1px solid black;
+	border-radius: 12px;
+	left: -100px;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 26px;
+	text-align: center;
+	line-height: 20px;
+}
+.skill{
+	float: right;
+	width: 40%;
+}
+.skill li{
+	float: left;
+	width: 90px;
+	margin: 0 10px 40px 50px;
+}
+.skill li:before{
+	content: '+';
+	position: absolute;
+	display: block;
+	width: 24px;
+	height: 24px;
+	border: 1px solid black;
+	border-radius: 12px;
+	left: -38px;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 26px;
+	text-align: center;
+	line-height: 20px;
+}
